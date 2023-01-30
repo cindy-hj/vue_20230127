@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>날짜</title>
+    <script>
+        let date = new Date();
+        document.write('Date 전체' + date +'<br />');
+        // 1월이 0으로 표기됨으로 +1 해줄것, day와 month값은 숫자형 변경
+        document.write('Month'+ date.getMonth() + '<br />');
+        document.write('Date'+ date.getDate() + '<br />');
+        document.write('Day'+ date.getDay() + '<br />');
+        document.write('FullYear'+ date.getFullYear() + '<br />');
+        document.write('Hours'+ date.getHours() + '<br />');
+        document.write('Minutes'+ date.getMinutes() + '<br />');
+        document.write('Seconds'+ date.getSeconds() + '<br />');
+        // 요일, 월 표시 숫자 2자리로 표시해야 할때 숫자 => 문자화 표현
+        // 1초를 밀리세컨드로 변경
+        // 하루 24*60*60*1000*1 = 하루에 대한 시간값
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
